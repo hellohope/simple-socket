@@ -98,7 +98,7 @@ namespace NET
 		 */
 		operator bool() const { return m_sockfd >= 0; }
 
-	private:
+	//private:
 		//! constructor for sockets using this handle
 		explicit SocketHandle( int sockfd) : m_sockfd(sockfd) {}
 
